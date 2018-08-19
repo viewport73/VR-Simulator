@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD18E2BF2127518B00B4F95A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD18E2BE2127518B00B4F95A /* main.cpp */; };
+		CD18E2C721275A2800B4F95A /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD18E2C621275A2800B4F95A /* libglfw.3.2.dylib */; };
+		CD18E2C921275A4500B4F95A /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD18E2C821275A4500B4F95A /* libGLEW.2.1.0.dylib */; };
+		CD18E2CB21275A6200B4F95A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD18E2CA21275A6200B4F95A /* OpenGL.framework */; };
+		CD18E2CE21275F6800B4F95A /* GLUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD18E2CC21275F6800B4F95A /* GLUtils.cpp */; };
+		CD18E2D62128321000B4F95A /* InputSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD18E2D42128321000B4F95A /* InputSystem.cpp */; };
+		CD18E2D9212839D500B4F95A /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD18E2D7212839D500B4F95A /* Camera.cpp */; };
+		CD18E2DC21283B5D00B4F95A /* TImeManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD18E2DA21283B5D00B4F95A /* TImeManager.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD18E2B92127518B00B4F95A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD18E2BB2127518B00B4F95A /* VRSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VRSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD18E2BE2127518B00B4F95A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD18E2C621275A2800B4F95A /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		CD18E2C821275A4500B4F95A /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		CD18E2CA21275A6200B4F95A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		CD18E2CC21275F6800B4F95A /* GLUtils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLUtils.cpp; sourceTree = "<group>"; };
+		CD18E2CD21275F6800B4F95A /* GLUtils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GLUtils.hpp; sourceTree = "<group>"; };
+		CD18E2D221281FD500B4F95A /* post.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = post.vert; sourceTree = SOURCE_ROOT; };
+		CD18E2D321281FD500B4F95A /* post.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = post.frag; sourceTree = SOURCE_ROOT; };
+		CD18E2D42128321000B4F95A /* InputSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = InputSystem.cpp; sourceTree = "<group>"; };
+		CD18E2D52128321000B4F95A /* InputSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = InputSystem.hpp; sourceTree = "<group>"; };
+		CD18E2D7212839D500B4F95A /* Camera.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		CD18E2D8212839D500B4F95A /* Camera.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		CD18E2DA21283B5D00B4F95A /* TImeManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TImeManager.cpp; sourceTree = "<group>"; };
+		CD18E2DB21283B5D00B4F95A /* TImeManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TImeManager.hpp; sourceTree = "<group>"; };
+		CD18E2DF21292B4200B4F95A /* texture.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texture.vs; sourceTree = SOURCE_ROOT; };
+		CD18E2E021292B4200B4F95A /* texture.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = texture.fs; sourceTree = SOURCE_ROOT; };
+		CD18E2E32129BFE900B4F95A /* CylinderProj.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CylinderProj.fs; sourceTree = SOURCE_ROOT; };
+		CD18E2E42129BFE900B4F95A /* CylinderProj.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CylinderProj.vs; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD18E2B82127518B00B4F95A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD18E2CB21275A6200B4F95A /* OpenGL.framework in Frameworks */,
+				CD18E2C921275A4500B4F95A /* libGLEW.2.1.0.dylib in Frameworks */,
+				CD18E2C721275A2800B4F95A /* libglfw.3.2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD18E2B22127518B00B4F95A = {
+			isa = PBXGroup;
+			children = (
+				CD18E2BD2127518B00B4F95A /* VRSimulator */,
+				CD18E2BC2127518B00B4F95A /* Products */,
+				CD18E2C521275A2700B4F95A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD18E2BC2127518B00B4F95A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD18E2BB2127518B00B4F95A /* VRSimulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD18E2BD2127518B00B4F95A /* VRSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				CD18E2E32129BFE900B4F95A /* CylinderProj.fs */,
+				CD18E2E42129BFE900B4F95A /* CylinderProj.vs */,
+				CD18E2E021292B4200B4F95A /* texture.fs */,
+				CD18E2DF21292B4200B4F95A /* texture.vs */,
+				CD18E2D321281FD500B4F95A /* post.frag */,
+				CD18E2D221281FD500B4F95A /* post.vert */,
+				CD18E2BE2127518B00B4F95A /* main.cpp */,
+				CD18E2CC21275F6800B4F95A /* GLUtils.cpp */,
+				CD18E2CD21275F6800B4F95A /* GLUtils.hpp */,
+				CD18E2D42128321000B4F95A /* InputSystem.cpp */,
+				CD18E2D52128321000B4F95A /* InputSystem.hpp */,
+				CD18E2D7212839D500B4F95A /* Camera.cpp */,
+				CD18E2D8212839D500B4F95A /* Camera.hpp */,
+				CD18E2DA21283B5D00B4F95A /* TImeManager.cpp */,
+				CD18E2DB21283B5D00B4F95A /* TImeManager.hpp */,
+			);
+			path = VRSimulator;
+			sourceTree = "<group>";
+		};
+		CD18E2C521275A2700B4F95A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD18E2CA21275A6200B4F95A /* OpenGL.framework */,
+				CD18E2C821275A4500B4F95A /* libGLEW.2.1.0.dylib */,
+				CD18E2C621275A2800B4F95A /* libglfw.3.2.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD18E2BA2127518B00B4F95A /* VRSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD18E2C22127518B00B4F95A /* Build configuration list for PBXNativeTarget "VRSimulator" */;
+			buildPhases = (
+				CD18E2B72127518B00B4F95A /* Sources */,
+				CD18E2B82127518B00B4F95A /* Frameworks */,
+				CD18E2B92127518B00B4F95A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRSimulator;
+			productName = VRSimulator;
+			productReference = CD18E2BB2127518B00B4F95A /* VRSimulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD18E2B32127518B00B4F95A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Studio73;
+				TargetAttributes = {
+					CD18E2BA2127518B00B4F95A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD18E2B62127518B00B4F95A /* Build configuration list for PBXProject "VRSimulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD18E2B22127518B00B4F95A;
+			productRefGroup = CD18E2BC2127518B00B4F95A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD18E2BA2127518B00B4F95A /* VRSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD18E2B72127518B00B4F95A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD18E2DC21283B5D00B4F95A /* TImeManager.cpp in Sources */,
+				CD18E2D9212839D500B4F95A /* Camera.cpp in Sources */,
+				CD18E2CE21275F6800B4F95A /* GLUtils.cpp in Sources */,
+				CD18E2D62128321000B4F95A /* InputSystem.cpp in Sources */,
+				CD18E2BF2127518B00B4F95A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD18E2C02127518B00B4F95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD18E2C12127518B00B4F95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD18E2C32127518B00B4F95A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/Pramod/Documents/Studio73/OpenGL/glm-0.9.9.0/Install/include",
+					"/Users/Pramod/Documents/Studio73/Libraries/stb-master",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD18E2C42127518B00B4F95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/Pramod/Documents/Studio73/OpenGL/glm-0.9.9.0/Install/include",
+					"/Users/Pramod/Documents/Studio73/Libraries/stb-master",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw/3.2.1/lib,
+					/usr/local/Cellar/glew/2.1.0/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD18E2B62127518B00B4F95A /* Build configuration list for PBXProject "VRSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD18E2C02127518B00B4F95A /* Debug */,
+				CD18E2C12127518B00B4F95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD18E2C22127518B00B4F95A /* Build configuration list for PBXNativeTarget "VRSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD18E2C32127518B00B4F95A /* Debug */,
+				CD18E2C42127518B00B4F95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD18E2B32127518B00B4F95A /* Project object */;
+}
